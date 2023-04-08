@@ -35,6 +35,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.13.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/appIcon/todoAppIcon.jpg"
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +68,7 @@ flutter:
   assets:
     - assets/img1.png
     - assets/img2.png
+    - assets/appIcon/todoAppIcon.jpg
 
   #   - images/a_dot_ham.jpeg
 
